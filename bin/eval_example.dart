@@ -3,7 +3,7 @@ import 'dart:isolate';
 void main(List<String> arguments) async {
   /// Делаем ссылку на dart файл
   var uri = Uri.parse(
-      'https://github.com/sorgfal/eval_example/raw/main/build/snapshot');
+      'https://github.com/sorgfal/eval_example/raw/main/build/snapshot_for_eval');
 
   /// Создаем порт для общения с изолятом
   ReceivePort port = ReceivePort();
